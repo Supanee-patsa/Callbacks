@@ -19,14 +19,14 @@ const printAge = (callback) => {
 
 const printLocation = (callback) => {
   fetchData("4 sek delay", 4000, () => {
-    console.log("I'm from Thailand. I live in Malmo");
+    console.log("I was born in Thailand but live in Malmo");
     callback();
   });
 };
 
 const printHobbies = (callback) => {
   fetchData("5 sek delay", 5000, () => {
-    console.log("I like Music");
+    console.log("My hobbies are being DJ, Travel, Runnig");
     callback();
   });
 };
